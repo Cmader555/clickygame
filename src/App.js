@@ -1,14 +1,31 @@
 import React, { Component } from "react";
+import StarwarsCard from "./components/Starwarscard";
+import characters from "./characters.json";
+import Wrapper from "./components/Wrapper";
 
 
 
 class App extends Component {
-    // Setting this.state.friends to the friends json array
-    
-    render() {
-      return <h1>Hello World!</h1>
-    }
+  state = {
+    characters
   }
-  
-  export default App;
-  
+
+  render() {
+    return (
+      <Wrapper>
+
+      {this.state.characters.map(character => (
+        <StarwarsCard 
+          id={character.id}
+          image={character.image}
+        />
+      ))}
+
+
+
+      </Wrapper>
+    )
+  }
+}
+
+export default App;

@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Yoda", 
+      "image": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864"
+     
+    },
+    {
+      "id": 2,
+      "name": "Darth Maul", 
+      "image": "https://cdnb.artstation.com/p/assets/images/images/010/400/503/large/sven-juhlin-darth-maul-bf2-50.jpg?1524214972"
+    },
+    {
+      "id": 3,
+      "name": "C-3PO", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/C-3PO_droid.png/220px-C-3PO_droid.png"
+    },
+    {
+      "id": 4,
+      "name": "Chewbacca", 
+      "image": "https://lumiere-a.akamaihd.net/v1/images/solo-chewbacca-main_80768fa8.jpeg?region=8%2C0%2C1543%2C868&width=960"
+    },
+    {
+      "id": 5,
+      "name": "Han Solo", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg"
+    },
+    {
+      "id": 6,
+      "name": "R2-D2", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png"
+
+    },
+    {
+      "id": 7,
+      "name": "Darth Vader",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Obi-wan Kenobi", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png"
+    },
+    {
+      "id": 9,
+      "name": "Luke SkyWalker", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png"
+    },
+    {
+      "id": 10,
+      "name": "Princess Leia", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Princess_Leia%27s_characteristic_hairstyle.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Qui-gon Jinn", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Qui-Gon_Jinn.png"
+    },
+    {
+      "id": 12,
+      "name": "Darth Sideous", 
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/Emperor_RotJ.png"
+    }
+  ]
+  
