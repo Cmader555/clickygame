@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import StarwarsCard from "./components/Starwarscard";
 import characters from "./characters.json";
 import Wrapper from "./components/Wrapper";
-import Nav from "./components/Nav"; 
-import Jumbotron from "./components/Jumbotron"; 
+import Nav from "./components/Nav";
+import Jumbotron from "./components/Jumbotron";
 
 
 
@@ -19,16 +19,16 @@ class App extends Component {
     let { score, highScore, characters } = this.state;
 
     if (character.clicked === true) {
-      highScore = highScore > score ? highScore : score;
+      highScore = score > highScore ? score : highScore;
       this.setState({
         characters: characters.map(character => ({ ...character, clicked: false })),
         score: 0,
         highScore: highScore
       }, () => { this.shuffleArray(this.state.characters) })
-    } else {
+    } else if(character.clicked === false){
 
       this.setState({
-        score: score++
+        score: score +1
       })
       character.clicked = true;
 
@@ -52,7 +52,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav></Nav>
+        <Nav 
+        score={this.state.score}
+        highScore={this.state.highScore}
+        >
+        
+        </Nav>
         <Jumbotron></Jumbotron>
 
         <Wrapper>

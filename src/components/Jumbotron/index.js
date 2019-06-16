@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 function Jumbotron({ children }) {
   return (
@@ -7,6 +8,8 @@ function Jumbotron({ children }) {
       className="jumbotron"
     >
       {children}
+      <h1>Clicky Game!</h1>
+      <h4>Click the same character twice and you lose!</h4>
     </div>
   );
 }
