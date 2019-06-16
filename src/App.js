@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import StarwarsCard from "./components/Starwarscard";
 import characters from "./characters.json";
 import Wrapper from "./components/Wrapper";
+import Nav from "./components/Nav"; 
+import Jumbotron from "./components/Jumbotron"; 
 
 
 
@@ -22,7 +24,7 @@ class App extends Component {
         characters: characters.map(character => ({ ...character, clicked: false })),
         score: 0,
         highScore: highScore
-      }, ()=> {this.shuffleArray(this.state.characters)})
+      }, () => { this.shuffleArray(this.state.characters) })
     } else {
 
       this.setState({
@@ -49,20 +51,27 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <div>
+        <Nav></Nav>
+        <Jumbotron></Jumbotron>
 
-        {this.state.characters.map(character => (
-          <StarwarsCard
-            character={character}
-            onClick={this.handleClick}
-            id={character.id}
-            image={character.image}
-          />
-        ))}
+        <Wrapper>
 
 
+          {this.state.characters.map(character => (
+            <StarwarsCard
+              character={character}
+              onClick={this.handleClick}
+              id={character.id}
+              image={character.image}
+            />
+          ))}
 
-      </Wrapper>
+
+
+        </Wrapper>
+
+      </div>
     )
   }
 }
