@@ -1,17 +1,17 @@
-# Sports Article Scraper
+# Clicky Game 
 
-This scraper app works by scraping articles from BleacherReport.com, and displaying them on the webpage. A user has the ability to view the articles from their source, or the user can favorite them. On the favorites page a user can add/delete notes, and delete favorites. 
+This is the first application that I built using React. Click on any image to start the game! Keep clicking on any star wars character that you have not previously clicked to continue the game! If you click the same image twice, you lose! 
 
 ## Getting Started
 
-* Interested in seeing this app deployed? Check it out here!: https://obscure-shore-21174.herokuapp.com/
+* Interested in seeing this app deployed? Check it out here!: https://angry-wiles-40c827.netlify.com/
 * If you want to deploy and it host it yourself, checkout the deployment section!
 
 ### Installing, and deployment
 
 * Clone or download this code to your local machine
 
-* Open locally in your terminal in the root file, and run npm install
+* Open locally in your terminal, and in the root file run npm install
 
 * Run locally with npm start
 
@@ -20,11 +20,11 @@ This scraper app works by scraping articles from BleacherReport.com, and display
 
 ## Built With
 
-* Javascript, J-Query, CSS, Cheerio.JS,  Express, Node, MongoDB, mongoose, AJAX calls, handlebars, and MVC design pattern 
+* React, Javascript, CSS,  Express, Node, and MVC design pattern 
 
 ## Preview
 
-![Friend Finder](public/assets/images/scraper.png)
+![Friend Finder](src/images/demo.png)
 
 
 ## Authors
