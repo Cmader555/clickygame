@@ -24,7 +24,7 @@ This is the first application that I built using React. Click on any image to st
 
 ## Preview
 
-![Friend Finder](src/images/demo.png)
+![Clicky game](src/images/demo.png)
 
 
 ## Authors
